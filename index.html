@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocify</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="@container min-h-screen bg-[url('/images/Image.png')] bg-center bg-cover px-28 py-5 relative">
+        <nav class="flex items-center">
+            <img src="./images/logo.png" class="w-40 cursor-pointer"alt="logo">
+
+            <ul class="flex items-center justify-center gap-11 flex-1 text-center">
+                <li class="list-none"><a href="#" class="no-underline text-white hover:text-yellow-300">Home</a></li>
+                <li class="list-none"><a href="#" class="no-underline text-white hover:text-yellow-300">About</a></li>
+                <li class="list-none"><a href="#" class="no-underline text-white hover:text-yellow-300">Features</a></li>
+                <li class="list-none"><a href="#" class="no-underline text-white hover:text-yellow-300">Contact</a></li>
+            </ul>
+
+            <img src="./images/cart.png" class="w-8 cursor-pointer" alt="cart icon">
+        </nav>
+
+        <div class="flex flex-column items-center justify-content-center gap-12 mt-5 xl:flex-row xl:gap-2 xl:justify-between">
+            <div class="text-white mt-48 max-w-xl">
+                <h1 class="text-5xl font-semibold leading-13">Groceries <br> Delivery in <span class="font-light">15 mins</span></h1>
+                <p class="mt-4">Grocify offer a wide range of products, including fresh products, meats, dairy, baked goods, and non-perishable items.</p>
+                <div class="mt-10">
+                    <a href="#" class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">Order Now</a>
+                    <a href="#">Download App <span class="text-lg inline-block rotate-90">&#10148</span></a>
+                </div>
+            </div>
+            <img src="./images/grocery-image.png" class="w-1/2" alt="Hero image">
+        </div>
+
+        <section class="mt-20" id="about">
+            <div>
+                <h2 class="text-4xl text-center text-yellow-300 font-semibold">About Grocify</h2>
+                <p class="text-justify leading-10 text-white mt-4">
+                    Founded in <span class="text-yellow-300">2023</span>, Grocify has rapidly become a leading grocery delivery service, dedicated to bringing <span class="text-yellow-300">fresh</span> and <span class="text-yellow-300">quality</span> groceries to your doorstep in just <span class="text-yellow-300">15 minutes</span>. Since our inception, we have successfully fulfilled over <span class="text-yellow-300 font-semibold">500,000 orders</span>, serving more than <span class="text-yellow-300 font-semibold">120,000 satisfied customers</span> across the nation. Our reliable delivery network covers over <span class="text-yellow-300 font-semibold">30 states</span>, ensuring that communities everywhere have access to fresh produce, meats, dairy, baked goods, and essential non-perishable items. Through our commitment to excellence and customer satisfaction, Grocify has achieved over <span class="text-yellow-300 font-semibold">3 million dollars in profits</span>, reflecting our strong growth and trusted reputation in the industry.
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
