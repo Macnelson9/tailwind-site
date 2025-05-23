@@ -24,10 +24,10 @@
 
         <div class="flex flex-column items-center justify-content-center gap-12 mt-5 xl:flex-row xl:gap-2 xl:justify-between">
             <div class="text-white mt-48 max-w-xl">
-                <h1 class="text-5xl font-semibold leading-13">Groceries <br> Delivery in <span class="font-light">15 mins</span></h1>
+                <h1 class="text-5xl text-yellow-300 font-semibold leading-13">Groceries <br> Delivery in <span class="font-light">15 mins</span></h1>
                 <p class="mt-4">Grocify offer a wide range of products, including fresh products, meats, dairy, baked goods, and non-perishable items.</p>
                 <div class="mt-10">
-                    <a href="#" class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">Order Now</a>
+                    <a href="#" class="bg-yellow-300 text-[#0C0817] rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">Order Now</a>
                     <a href="#">Download App <span class="text-lg inline-block rotate-90">&#10148</span></a>
                 </div>
             </div>
@@ -42,6 +42,63 @@
                 </p>
             </div>
         </section>
+
+        <section class="mt-20" id="features">
+            <div>
+                <h2 class="text-4xl text-center text-yellow-300 font-semibold">Features</h2>
+                <p class="text-white mt-4 text-center">What makes us unique? Follow along on this journey.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 text-[#0C0817]">
+                    <div class="bg-white p-5 rounded-lg shadow-lg py-14 hover:bg-yellow-300 transition-all">
+                        <h3 class="text-xl font-semibold">Fast Delivery</h3>
+                        <p>Get your groceries delivered in just 15 minutes.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-lg shadow-lg py-14 hover:bg-yellow-300 transition-all">
+                        <h3 class="text-xl font-semibold">Wide Selection</h3>
+                        <p>Choose from a wide range of products, including fresh produce, meats, and more.</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-lg shadow-lg py-14 hover:bg-yellow-300 transition-all">
+                        <h3 class="text-xl font-semibold">User-Friendly App</h3>
+                        <p>Order groceries easily with our intuitive app.</p>
+                    </div>
+            </div>
+        </section>
+
+        <section class="mt-20" id="contact">
+            <div>
+                <h2 class="text-4xl text-center text-yellow-300 font-semibold">Contact Us</h2>
+                <p class="text-center mt-4 text-white">Have questions or feedback? We'd love to hear from you!</p>
+
+                <form class="mt-10 max-w-lg mx-auto text-white">
+                    <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 border border-gray-300 rounded">
+                    <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 border border-gray-300 rounded">
+                    <textarea placeholder="Your Message" class="w-full p-3 mb-4 border border-gray-300 rounded"></textarea>
+                    <button type="submit" class="bg-yellow-300 text-[#0C0817] py-3 px-8 rounded font-medium hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+
+        <section class="mt-20" id="socials">
+            <div>
+                <h2 class="text-4xl text-center text-yellow-300 font-semibold">Follow Us</h2>
+                <p class="text-center mt-4 text-white">Stay connected with us on social media!</p>
+
+                <div class="flex justify-center items-center gap-5 mt-5">
+                    <a href="#"><ion-icon name="logo-facebook" class="w-8 text-white text-[32px] transition-all hover:text-yellow-300"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter" class="w-8 text-white text-[32px] transition-all hover:text-yellow-300"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram" class="w-8 text-white text-[32px] transition-all hover:text-yellow-300"></ion-icon></a>
+                </div>
+            </div>
+        </section>
     </div>
+    <footer class="bg-yellow-300">
+        <div class="py-7 text-center text-[#0C0817] font-semibold">
+            <p>&copy; 2023 Grocify. All rights reserved.</p>
+            <p>Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
