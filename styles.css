@@ -1,3 +1,9 @@
 * {
     font-family: "Poppins", sans-serif;
 }
+
+#body-container {
+    background: url('./images/Image.png');
+    background-size: cover;
+    background-position: center;
+}
